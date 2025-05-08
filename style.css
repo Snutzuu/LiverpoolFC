@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+section .card{
+    background-color: black;
+    color:goldenrod;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+section .card figure img{
+   width: 100%;
+}
+
+section .card h3{
+    padding: 10px;
+    font-size: 22px;
+}
+
+section .card p{
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+section .card p span{
+    color: red;
+    font-weight: bold;
+    font-family: system-ui,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
